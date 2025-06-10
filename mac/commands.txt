@@ -1,0 +1,12 @@
+chmod +x setup_zsh.sh
+./setup_zsh.sh
+exec zsh
+
+====================================================================================
+
+For VS Code and Cursor (VS Code-based):
+Open Command Palette
+Cmd + Shift + P → Type:
+“Preferences: Open User Settings (JSON)”
+
+====================================================================================

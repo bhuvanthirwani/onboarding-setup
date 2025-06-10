@@ -1,0 +1,16 @@
+{
+    "window.commandCenter": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "git.autofetch": true,
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "/opt/homebrew/bin/zsh"
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorBlinking": true
+}

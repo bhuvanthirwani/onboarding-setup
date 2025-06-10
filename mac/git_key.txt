@@ -1,0 +1,5 @@
+ssh-keygen -t ed25519 -C "bthirwani@salesforce.com"
+eval "$(ssh-agent -s)"
+open ~/.ssh/config
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+pbcopy < ~/.ssh/id_ed25519.pub
